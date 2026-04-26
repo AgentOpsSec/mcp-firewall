@@ -12,7 +12,7 @@
     "url": "https://github.com/AgentOpsSec/mcp-firewall/issues"
   },
   "bin": {
-    "mcp-firewall": "./bin/mcp-firewall.js"
+    "mcp-firewall": "bin/mcp-firewall.js"
   },
   "files": [
     "LICENSE",
