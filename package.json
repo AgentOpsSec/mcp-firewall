@@ -1,0 +1,46 @@
+{
+  "name": "@agentopssec/mcp-firewall",
+  "version": "1.0.0",
+  "description": "Local policy gateway for MCP tool calls.",
+  "type": "module",
+  "homepage": "https://AgentOpsSec.com/projects/mcp-firewall",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgentOpsSec/mcp-firewall.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AgentOpsSec/mcp-firewall/issues"
+  },
+  "bin": {
+    "mcp-firewall": "./bin/mcp-firewall.js"
+  },
+  "files": [
+    "LICENSE",
+    "bin",
+    "src",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check bin/mcp-firewall.js && node --test"
+  },
+  "keywords": [
+    "mcp",
+    "firewall",
+    "agent",
+    "security",
+    "policy"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "Aunt Gladys Nephew",
+    "url": "https://auntgladysnephew.com"
+  }
+}

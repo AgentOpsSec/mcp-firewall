@@ -1,0 +1,5 @@
+test/
+coverage/
+*.log
+*.tmp
+.mcp-firewall/
