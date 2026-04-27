@@ -1,5 +1,7 @@
 # MCP Firewall
 
+![NPM Downloads](https://img.shields.io/npm/dw/%40agentopssec%2Fmcp-firewall)
+
 **Let AI agents use tools without giving them your whole machine.**
 
 MCP Firewall is a local policy gateway for MCP tool calls. It sits between AI
